@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed on your machine:
 1. Clone the repository:
 
 ```
-   git clone https://github.com/yourusername/weather-monitoring.git
+   git clone https://github.com/Logeshwar-S/real-time-weather-monitoring.git
    cd weather-monitoring
 ```
 2. Create a virtual environment (optional but recommended):
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 4. Set up the MySQL database:
 
 - Create a database named weather_monitoring.
-- Run the SQL scripts in sql/ directory to create necessary tables (weather_summary, weather_alerts, etc.).
+- Run the SQL scripts in scripts/ directory to create necessary tables (weather_summary, weather_alerts, etc.).
 
 5. Configure environment variables:
 - Create a .env file in the root directory of your project and add your OpenWeatherMap API key:
